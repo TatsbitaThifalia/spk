@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC >
+<html xmlns="">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Moon Scholarship </title>
+</head>
+<style>
+input, select {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #f2f2f2;
+    border-radius: 4px;
+    
+}
+textarea {
+  width: 500px;
+  height: 100px;
+  padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #f7a2b5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+h2 {
+   background: #f7a2b5;
+    padding: 20px 30px 15px 30px;
+    margin: -30px -30px 30px -30px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    font: normal 30px 'Bitter', serif;
+    -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    border: 1px solid #f7a2b5;
+}
+div.one {
+  border-style: dashed;
+  border-color: #f7a2b5;
+}
+div.two {
+  border-style: dashed;
+  border-color: #f7a2b5;
+
+}
+div.three {
+  border-style: dashed;
+  border-color: #f7a2b5;
+}
+div.four {
+  border-style: dashed;
+  border-color: #f7a2b5;
+}
+div.two1 {
+  border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: dashed;
+    border-left-style: none;
+    border-color: #f7a2b5;
+}
+div.two2 {
+  border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: dashed;
+    border-left-style: none;
+    border-color: #f7a2b5;
+}
+div.two3 {
+  border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: dashed;
+    border-left-style: none;
+    border-color: #f7a2b5;
+}
+div.two4 {
+  border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-color: #f7a2b5;
+}
+h4 {
+  background: #f7a2b5;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px
+}
+span {
+  display: block;
+    margin-top: 2px;
+    font: 13px Arial, Helvetica, sans-serif;
+}
+h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #f7a2b5;
+
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+legend {
+   font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #f7a2b5;
+}
+table, tr {
+    border: none;
+}
+td {
+  border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+</style>
+
+<body>
+<h2>Dearymoon Beauty Care<span>Formulir Pendaftaran Karyawan Baru</span></h2>
+<div>
+<FORM METHOD="POST" ACTION="appconn.php" onsubmit="myFunction()" >
+<legend>
+<h4>A</h4> Data diri
+</legend>
+<div class="one">
+<TABLE BORDER="" cellspacing="0" cellpadding="0">
+  <TR>
+    <TD>Nama Depan:</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="fname" SIZE="60" required>
+    </TD>
+    <TD>Nama Belakang:</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="lname" SIZE="60" required>
+    </TD>
+  </TR>
+  <TR>
+    <TD>Email:</TD>
+    <TD><INPUT TYPE="email" NAME="email" SIZE="60" required></TD>
+    <TD>Nomor Telepon:</TD>
+    <TD><INPUT TYPE="TEXT" NAME="tel_number" SIZE="60" required></TD>
+  </TR>
+   <TR>
+    <TD>Tanggal Lahir:</TD>
+    <TD>
+      <INPUT TYPE="date" NAME="dob" SIZE="60" required>
+    </TD>
+    <TD>Kebangsaan:</TD>
+    <TD>
+      <select name="nationality" style="width: 500px" required>
+   <option value="">--Pilih--</option>
+   <option value="Warga Negara Indonesia">Warga Negara Indonesia</option>
+  <option value="Warga Negara Asing">Warga Negara Asing</option>
+</select>
+    </TD>
+  </TR>
+  <TR>
+    <TD>Alamat:</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="postal" SIZE="60" required>
+    </TD>
+    <TD>Nomor Id/Paspor:</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="id_no" SIZE="60" required>
+    </TD>
+  </TR>
+  <TR>
+  <TD>Jenis Kelamin:</TD>
+  <TD>
+  <input type="radio" name="gender" value="male" checked>Laki-laki<br>
+    <input type="radio" name="gender" value="female">Perempuan<br>
+  </TD>
+  </TR>
+</TABLE>
+</div>
+
+
+<legend>
+<h4>B</h4> Pendidikan
+</legend>
+<div class="two">
+<div class="two1">
+<TABLE BORDER="">
+<h5>Rincian Pendidikan</h5>
+  <TR>
+    <TD>Sekolah:</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="Sekolah" SIZE="50">
+    </TD>
+    <TD>Gelar:</TD>
+    <TD>
+
+   <select name="Degree">
+   <option value="">--Pilih--</option>
+  <option value="Sarjana Pendidikan">Sarjana Pendidikan (S.Pd)</option>
+  <option value="Sarjana Keperawatan">Sarjana Keperawatan (S.Kep)</option>
+  <option value="Sarjana Kesehatan Masyarakat">Sarjana Kesehatan Masyarakat (S.K.M)</option>
+  <option value="Lainnya">Lainnya</option>
+</select>
+
+    </TD>
+    <TD>IPK:</TD>
+    <TD>
+      <INPUT TYPE="number" NAME="CGPA" SIZE="20" step = "0.01" >
+    </TD>
+  </TR>
+  <TR>
+    <TD>Sejak:</TD>
+    <TD><INPUT TYPE="date" NAME="Start" SIZE="25"></TD>
+    <TD>Hingga:</TD>
+    <TD><INPUT TYPE="date" NAME="End" SIZE="25"></TD>
+  </TR>
+</TABLE>
+</div>
+<div class="two2">
+<TABLE BORDER="">
+<h5>Kursus Khusus</h5>
+   <TR>
+    <TD>Instansi:</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="institution" SIZE="30">
+    </TD>
+    <TD>Kursus:</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="course" SIZE="30">
+    </TD>
+     <TD>Tingkat Kursus:</TD>
+    <TD>
+      <INPUT TYPE="number" NAME="Courselevel" SIZE="20">
+    </TD>
+  </TR>
+  <TR>
+    <TD>Sejak:</TD>
+    <TD>
+      <INPUT TYPE="date" NAME="Start1" SIZE="25">
+    </TD>
+    <TD>Hingga:</TD>
+    <TD>
+      <INPUT TYPE="date" NAME="End1" SIZE="25">
+    </TD>
+    <TD>Tingkat:</TD>
+    <TD>
+      <INPUT TYPE="number" NAME="CGPA1" SIZE="20">
+    </TD>
+  </TR>
+</TABLE>
+</div>
+<div class="two3">
+<TABLE BORDER="">
+<h5>Rincian Sekolah</h5>
+   <TR>
+    <TD>Tingkatan Sekolah:</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="a_level" SIZE="50">
+    </TD>
+    <TD>Penghargaan:</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="award" SIZE="50">
+    </TD>
+     <TD>Tingkat:</TD>
+    <TD>
+      <INPUT TYPE="number" NAME="grade" SIZE="20" min = "0" max = "25">
+    </TD>
+  </TR>
+  <TR>
+    <TD>Sejak:</TD>
+    <TD>
+      <INPUT TYPE="date" NAME="Start2" SIZE="25">
+    </TD>
+    <TD>Hingga:</TD>
+    <TD>
+      <INPUT TYPE="date" NAME="End2" SIZE="25">
+    </TD>
+  </TR>
+</TABLE>
+</div>
+<div class="two4">
+<TABLE BORDER="">
+   <TR>
+    <TD>Tingkatan Sekolah:</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="o_level" SIZE="50">
+    </TD>
+    <TD>Penghargaan:</TD>
+    <TD>
+      <INPUT TYPE="TEXT" NAME="award1" SIZE="50">
+    </TD>
+     <TD>Tingkat:</TD>
+    <TD>
+      <INPUT TYPE="number" NAME="grade1" SIZE="20" min = "8" max = "72" required>
+    </TD>
+  </TR>
+  <TR>
+    <TD>Sejak:</TD>
+    <TD>
+      <INPUT TYPE="date" NAME="Start3" SIZE="25">
+    </TD>
+    <TD>Hingga:</TD>
+    <TD>
+      <INPUT TYPE="date" NAME="End3" SIZE="25">
+    </TD>
+  </TR>
+</TABLE>
+</div>
+</div>
+
+
+
+<legend>
+<h4>C</h4> Pengalaman Kerja
+</legend>
+<div class="three">
+<TABLE BORDER="">
+  <TR>
+    <TD>Organisasi</TD>
+    <TD>Sejak</TD>
+    <TD>Hingga</TD>
+    <TD>Jabatan</TD>
+  </TR>
+  <TR>
+    
+    <TD><INPUT TYPE="TEXT" NAME="organisation1" SIZE="30"></TD>
+     <TD><INPUT TYPE="date" NAME="start_date1" SIZE="30"></TD>
+    <TD><INPUT TYPE="date" NAME="end_date1" SIZE="30"></TD>
+     <TD><INPUT TYPE="TEXT" NAME="position1" SIZE="30"></TD>
+  </TR>
+   <TR>
+  
+   <TD><INPUT TYPE="TEXT" NAME="organisation2" SIZE="30"></TD>
+     <TD><INPUT TYPE="date" NAME="start_date2" SIZE="30"></TD>
+    <TD><INPUT TYPE="date" NAME="end_date2" SIZE="30"></TD>
+     <TD><INPUT TYPE="TEXT" NAME="position2" SIZE="30">
+</TD>
+  </TR>
+  <TR>
+    
+    <TD><INPUT TYPE="TEXT" NAME="organisation3" SIZE="30"></TD>
+     <TD><INPUT TYPE="date" NAME="start_date3" SIZE="30"></TD>
+    <TD><INPUT TYPE="date" NAME="end_date3" SIZE="30"></TD>
+     <TD>
+     <INPUT TYPE="TEXT" NAME="position3" SIZE="30">
+</TD>
+  </TR>
+</TABLE>
+</div>
+
+<legend>
+<h4>D</h4> Bahasa yang Dikuasai
+</legend>
+<div class="four">
+<TABLE BORDER="">
+  <TR>
+    <TD>Bahasa</TD>
+    <TD>Kemampuan Berbicara</TD>
+    <TD>Kemampuan Membaca</TD>
+    <TD>Kemampuan Menulis</TD>
+  </TR>
+  <TR>
+  <TD><INPUT TYPE="TEXT" NAME="language1" SIZE="30"></TD>
+    
+    <TD><select name="speak1" style="width: 250px">
+    <option value="">--Pilih--</option>
+  <option value="fluent">Fasih</option>
+  <option value="good knowledge">Baik</option>
+  <option value="basic knowledge">Basic/Dasar</option>
+  
+</select></TD>
+<TD><select name="read1" style="width: 250px">
+<option value="">--Pilih--</option>
+   <option value="fluent">Fasih</option>
+  <option value="good knowledge">Baik</option>
+  <option value="basic knowledge">Basic/Dasar</option>
+  
+</select></TD>
+<TD><select name="write1" style="width: 250px">
+<option value="">--Pilih--</option>
+  <option value="fluent">Fasih</option>
+  <option value="good knowledge">Baik</option>
+  <option value="basic knowledge">Basic/Dasar</option>
+</select></TD>
+
+     
+  </TR>
+   <TR>
+   <TD><INPUT TYPE="TEXT" NAME="language2" SIZE="30"></TD>
+  
+   <TD><select name="speak2" style="width: 250px">
+   <option value="">--Pilih--</option>
+  <option value="fluent">Fasih</option>
+  <option value="good knowledge">Baik</option>
+  <option value="basic knowledge">Basic/Dasar</option>
+</select></TD>
+<TD><select name="read2" style="width: 250px">
+<option value="">--Pilih--</option>
+  <option value="fluent">Fasih</option>
+  <option value="good knowledge">Baik</option>
+  <option value="basic knowledge">Basic/Dasar</option>
+</select></TD>
+<TD><select name="write2" style="width: 250px">
+<option value="">--Pilih--</option>
+  <option value="fluent">Fasih</option>
+  <option value="good knowledge">Baik</option>
+  <option value="basic knowledge">Basic/Dasar</option>
+</select></TD>
+     
+  </TR>
+  <TR>
+  <TD><INPUT TYPE="TEXT" NAME="language3" SIZE="30"></TD>
+    
+    <TD><select name="speak3" style="width: 250px">
+    <option value="">--Pilih--</option>
+  <option value="fluent">Fasih</option>
+  <option value="good knowledge">Baik</option>
+  <option value="basic knowledge">Basic/Dasar</option>
+</select></TD>
+<TD><select name="read3" style="width: 250px">
+<option value="">--Pilih--</option>
+  <option value="fluent">Fasih</option>
+  <option value="good knowledge">Baik</option>
+  <option value="basic knowledge">Basic/Dasar</option>
+</select></TD>
+<TD><select name="write3" style="width: 250px">
+<option value="">--Pilih--</option>
+  <option value="fluent">Fasih</option>
+  <option value="good knowledge">Baik</option>
+  <option value="basic knowledge">Basic/Dasar</option>
+</select></TD>
+     
+  </TR>
+</TABLE>
+</div>
+
+
+<legend>
+<h4>E</h4> Deskripsi Diri
+</legend>
+<TABLE BORDER="">
+  <TR>
+    <TD>Deskripsikan dirimu! (Maksimal 150 kata)</TD>
+    
+  </TR>
+  <TR>
+
+    <TD><textarea rows="4" cols="50" NAME="about_me" SIZE="120" style="width: 1000px" required></textarea></TD>
+    
+  </TR>
+   
+</TABLE>
+
+<legend>
+<h4>F</h4> Motivasi Karir
+</legend>
+<TABLE BORDER="">
+<TR>
+    <TD>Apa yang membuat anda tertarik pada Dearymoon Beauty Care? (Maksimal 150 kata)</TD>
+    
+  </TR>
+  
+  <TR>
+    
+    <TD><textarea rows="4" cols="50" NAME="motivationx" style="width: 1000px" required></textarea ></TD>
+    
+    
+  </TR>
+   
+</TABLE>
+<TABLE BORDER="">
+<p>
+<TD>
+Mohon lampirkan dokumen anda dibawah ini:<br>
+</TD>
+</P>
+<P>
+<TR>
+    <TD>Transkip Nilai Perguruan Tinggi</TD>
+<TD><input type="file" name="datafile" size="40"></TD>
+</TR>
+<TR>
+    <TD>Sertifikat Kursus Khusus</TD>
+    
+  
+<TD><input type="file" name="datafile" size="40"></TD>
+</TR>
+<TR>
+    <TD>Sertifikat Kursus Khusus</TD>
+    
+  
+<TD><input type="file" name="datafile" size="40"></TD>
+</TR>
+<TR>
+    <TD>Lainnya</TD>
+  
+<TD><input type="file" name="datafile" size="40"></TD>
+</TR>
+<TR>
+    <TD>Lainnya</TD>
+<TD><input type="file" name="datafile" size="40"></TD>
+</TR>
+</TABLE>
+<P><INPUT TYPE="SUBMIT" VALUE="Submit" NAME="B1"  align="right"></P>
+
+</FORM>
+</div>
+
+<script>
+function myFunction() {
+    alert("The form was submitted successfully");
+}
+</script>
+
+</body>
+</html>
