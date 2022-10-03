@@ -1,2 +1,3 @@
-# spk
-Untuk tugas tugas mata kuliah Sistem Pendukung Keputusan.
+# Fuzzy Telegram
+*A simple vanilla PHP web application displaying random quote of the day.*
+
