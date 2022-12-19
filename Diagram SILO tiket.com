@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T10:52:59.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="i3AdiwioYZmrXNNrA0se" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-19T11:02:51.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="Aq-CO1NhAmb1OApijQgC" type="github">
   <diagram id="WpppqIkglQs497EIxrIq" name="Page-1">
     <mxGraphModel dx="2563" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="srv_HeYHktvG-M3bstLm-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Brimo&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="srv_HeYHktvG-M3bstLm-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Livin by Mandiri&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-80" y="461.5" width="160" height="199" as="geometry" />
         </mxCell>
         <mxCell id="srv_HeYHktvG-M3bstLm-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Top-up&lt;/font&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="160" y="91" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="srv_HeYHktvG-M3bstLm-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Tagihan&lt;/font&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="srv_HeYHktvG-M3bstLm-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Bayar&lt;/font&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="160" y="530" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="srv_HeYHktvG-M3bstLm-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Transaksi&lt;/font&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -22,7 +22,7 @@
         <mxCell id="srv_HeYHktvG-M3bstLm-6" value="Setor tunai" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="924" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="srv_HeYHktvG-M3bstLm-7" value="Bayar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="srv_HeYHktvG-M3bstLm-7" value="QRIS Bayar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="1004" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="srv_HeYHktvG-M3bstLm-8" value="Cek saldo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -31,7 +31,7 @@
         <mxCell id="srv_HeYHktvG-M3bstLm-9" value="Tarik tunai" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="1164" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="srv_HeYHktvG-M3bstLm-10" value="Token Listrik" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="srv_HeYHktvG-M3bstLm-10" value="PLN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="-40" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="srv_HeYHktvG-M3bstLm-11" value="E-Wallet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -43,19 +43,19 @@
         <mxCell id="srv_HeYHktvG-M3bstLm-13" value="Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="200" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="srv_HeYHktvG-M3bstLm-14" value="Streaming" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="srv_HeYHktvG-M3bstLm-14" value="E-Money" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="280" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="srv_HeYHktvG-M3bstLm-15" value="Asuransi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="srv_HeYHktvG-M3bstLm-15" value="E-Commerce" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="401" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="srv_HeYHktvG-M3bstLm-16" value="Kartu kredit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="srv_HeYHktvG-M3bstLm-16" value="Tiker &amp;amp; Travel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="481" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="srv_HeYHktvG-M3bstLm-17" value="TV Kabel &amp;amp; Internet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="srv_HeYHktvG-M3bstLm-17" value="Internet &amp;amp; TV Kabel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="561" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="srv_HeYHktvG-M3bstLm-18" value="Listrik" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="srv_HeYHktvG-M3bstLm-18" value="PLN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="641" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="srv_HeYHktvG-M3bstLm-19" value="PDAM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
