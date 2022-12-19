@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T11:02:51.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="Aq-CO1NhAmb1OApijQgC" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-19T11:53:27.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="nJnEN-fpJuoGWwuqXTw3" type="github">
   <diagram id="WpppqIkglQs497EIxrIq" name="Page-1">
-    <mxGraphModel dx="2563" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2067" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="srv_HeYHktvG-M3bstLm-15" value="E-Commerce" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="401" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="srv_HeYHktvG-M3bstLm-16" value="Tiker &amp;amp; Travel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="srv_HeYHktvG-M3bstLm-16" value="Tiket &amp;amp; Travel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="560" y="481" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="srv_HeYHktvG-M3bstLm-17" value="Internet &amp;amp; TV Kabel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
